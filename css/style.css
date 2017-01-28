@@ -1,0 +1,134 @@
+/*//////////////////////////////Général////////////////////////////*/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;  /*Typo utilisée dans toute la page*/
+	background-color: #202020;                   /*Couleur de fond de la page*/
+}
+
+/*//////////////////////////////Menu////////////////////////////*/
+
+h2 {
+	font-weight: 600;
+	color: white;
+}
+
+h5 {
+	color: #515151;
+	margin-bottom: 60px;
+}
+
+span {             
+	color: #8d9494;         /*Couleur du mot Templated*/
+}
+
+.navbar {
+	height: 1745px;            /*Hauteur barre de navigation*/
+	background-color: #2a2a2a; /*Couleur arrière plan*/
+	border:none;               /*Pas de bordure*/
+}
+
+li {                       /*Section de menu*/
+	width: 290px;
+	height: 80px;
+	padding-top: 15px;
+	margin-left: -15px;
+	border-top: 1px solid #515151;
+	text-align: center;
+}
+
+li a{                     /*Lien menu*/
+	color: #8d9494;
+	font-weight: 700;
+	font-size: 15px;
+	margin-bottom: 7%;
+	width: 105%;
+}
+
+.navbar-default .navbar-nav > li:hover {      /*Quand une section du menu est survolé*/
+	background-color: #2980b9; 
+}
+
+.navbar-default .navbar-nav > li > a:hover,   /*Quand un lien est survolé*/
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+}
+
+/*//////////////////////////////Contenu////////////////////////////*/
+
+.col-md-9 {                     /*Couleur arrière plan de la zone de contenu*/
+	background-color: #ffffff;
+}
+
+#bleu {                         /*Barre bleue en haut*/
+	height: 6px;
+	background-color: #2980b9;
+	margin-bottom: 5%;
+}
+
+.col-md-9 img {                 /*Image*/                
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	width: 92%;
+}
+
+h1 {                           /*Grand titre*/
+	font-weight: 600;
+	font-size: 3.1em;
+}
+
+.sousTitre{                    /*Sous titre*/
+	font-size: 1.4em;
+	font-weight: 200;
+	color : #949494;
+	margin-top: -5px;
+	margin-bottom: 50px;
+}
+
+p{                            /*Texte en général*/
+	font-size: 16px;
+	line-height: 30px;
+	width: 95%;
+}
+
+p a{                           /*Lien dans le texte*/
+	text-decoration: underline;
+}
+
+#texte1{                       /*Premier texte*/
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 200;
+	margin-bottom: 65px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+/*//////////////////Articles/////////////////////*/
+
+.col-md-3 {                    /*Colonne contenant la date et le mois*/
+	border-right: 1px solid #e6e6e6;
+}
+
+.mois {                      /*Mois*/
+	font-size: 1.3em;
+	color: black;
+	margin-top: 15%;
+	margin-bottom: -35%;
+}
+
+.date {                      /*Date*/
+	font-size: 2em;
+	margin-bottom: 30%;
+}
+
+.col-md-8 {                 /*Colonne contenant le texte*/
+	padding-left: 3%;
+	margin-right:-5%;
+}
+
+.textArt {                  /*Texte article*/
+	font-weight: 200;
+	margin-bottom: 10%;
+}
